@@ -1,0 +1,12 @@
+version: "3.4"
+services:
+  urbit.public.dappnode.eth:
+    build: ./build
+    restart: unless-stopped
+    environment:
+      - PLANET_NAME=
+    volumes:
+      - "ship_data:/urbit"
+    image: "urbit.public.dappnode.eth:0.1.0"
+volumes:
+  ship_data: {}

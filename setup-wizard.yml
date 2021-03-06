@@ -1,0 +1,17 @@
+version: "2"
+fields:
+  - id: PLANET_BOOT_KEY
+    target:
+      type: fileUpload
+      path: /urbit/boot.key
+    title: Planet Boot Key
+    description: >-
+      A secret key used to manage your node's identity.
+
+  - id: PLANET_NAME
+    target:
+      type: environment
+      name: PLANET_NAME
+    title: Your Planet Name
+    description: >-
+      Your planet name, required if uploading a boot key.

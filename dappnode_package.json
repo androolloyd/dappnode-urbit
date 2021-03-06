@@ -1,0 +1,34 @@
+{
+  "name": "urbit.public.dappnode.eth",
+  "version": "0.1.0",
+  "description": "",
+  "type": "service",
+  "author": "androolloyd <opensource@andrewredden.com> (https://github.com/androolloyd)",
+  "contributors": [
+    "urbit (https://github.com/urbit)"
+  ],
+  "categories": [
+    "Developer tools", "Communications"
+  ],
+  "keywords": [
+    "urbit"
+  ],
+  "globalEnvs": {
+    "all": true
+  },
+  "backup": [
+    {
+      "name": "SHIP",
+      "path": "/urbit"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/androolloyd/dappnode-urbit"
+  },
+  "links": {
+    "homepage": "https://urbit.org",
+    "landscape": "http://urbit.public.dappnode"
+  },
+  "license": "GPL v3"
+}
